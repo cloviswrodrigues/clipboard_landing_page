@@ -1,0 +1,42 @@
+.header {
+    position: relative;
+
+    &-bg {
+        width: 100%;
+
+        img {
+            height: 30rem;
+        }
+    }
+
+    &__logo {
+        position: absolute;
+        top: 12rem;
+        left: 0;
+        right: 0;
+        margin: auto;
+        width: 10rem;
+    }
+
+    .container {
+        text-align: center;
+        max-width: 70rem;
+    }
+
+    &__title {
+        font-size: 4.5rem;
+        color: $color-dark-grayish-blue;
+    }
+
+    &__description {
+        margin-top: 2rem;
+        margin-bottom: 4rem;
+        font-size: 2rem;
+    }
+
+    .group-btn {
+        display: flex;
+        justify-content: center;
+        gap: 1.5rem;
+    }
+}

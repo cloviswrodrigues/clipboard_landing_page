@@ -4,8 +4,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
   
+  <link rel="stylesheet" href="./styles/main.css"/>
+
   <title>Frontend Mentor | Clipboard landing page</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -15,14 +21,29 @@
   </style>
 </head>
 <body>
+  <header class="header">
+    <picture class="header-bg">
+      <source>
+      <img src="/frontend/assets/bg-header-desktop.png" alt="">
+    </picture>
+    <img class="header__logo" src="/frontend/assets/logo.svg" alt="">
+    <div class="container">
+      <h1 class="header__title">A history of everything you copy</h1>
+      <p class="header__description">
+        Clipboard allows you to track and organize everything you 
+        copy. Instantly access your clipboard on all your devices.
+      </p>
+      <div class="group-btn">
+        <a class="btn btn-green" href="#">Download for iOS</a>
+        <a class="btn btn-blue" href="#">Download for Mac</a>
+      </div>
+    </div>    
+  </header>
+  
 
-  A history of everything you copy
-
-  Clipboard allows you to track and organize everything you 
-  copy. Instantly access your clipboard on all your devices.
-
-  Download for iOS
-  Download for Mac
+  
+  
+  
 
   Keep track of your snippets
 
