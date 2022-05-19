@@ -13,3 +13,28 @@
 .btn-blue {
     background-color: $color-light-blue;   
 }
+
+.section-main {
+    margin-top: 10rem;
+
+    .container {
+        max-width: 62rem;
+        margin: 0 auto;        
+        text-align: center;
+    }
+    
+    &__title {
+        font-size: 3.5rem;
+        color: $color-dark-grayish-blue;
+    }
+
+    &__description {
+        margin-top: 1.6rem;
+        font-size: 1.6rem;
+        line-height: 2.5rem;
+    }
+    
+    .wrapper {
+        margin-top: 6rem;
+    }
+}

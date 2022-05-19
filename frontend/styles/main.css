@@ -88,4 +88,29 @@ a {
 .btn-blue {
   background-color: #6173ff;
 }
+
+.section-main {
+  margin-top: 10rem;
+}
+
+.section-main .container {
+  max-width: 62rem;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.section-main__title {
+  font-size: 3.5rem;
+  color: #4c545d;
+}
+
+.section-main__description {
+  margin-top: 1.6rem;
+  font-size: 1.6rem;
+  line-height: 2.5rem;
+}
+
+.section-main .wrapper {
+  margin-top: 6rem;
+}
 /*# sourceMappingURL=main.css.map */
