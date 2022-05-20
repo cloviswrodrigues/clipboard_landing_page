@@ -112,5 +112,39 @@ a {
 
 .section-main .wrapper {
   margin-top: 6rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 7rem;
+}
+
+.section-main__img {
+  width: 60%;
+  position: relative;
+  left: -4rem;
+}
+
+.benefits {
+  margin-top: 8rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 6rem;
+  width: 50%;
+}
+
+.benefits__title {
+  font-size: 2.5rem;
+  color: #4c545d;
+}
+
+.benefits__description {
+  margin-top: 1rem;
+  max-width: 35rem;
+  font-size: 1.6rem;
 }
 /*# sourceMappingURL=main.css.map */
