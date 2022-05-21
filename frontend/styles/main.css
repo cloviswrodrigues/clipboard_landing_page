@@ -147,4 +147,29 @@ a {
   max-width: 35rem;
   font-size: 1.6rem;
 }
+
+.section-second {
+  margin-top: 10rem;
+}
+
+.section-second .container {
+  max-width: 100rem;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.section-second__title {
+  font-size: 3.5rem;
+  color: #4c545d;
+}
+
+.section-second__description {
+  margin: 1rem 15rem;
+  font-size: 1.8rem;
+  line-height: 2.5rem;
+}
+
+.section-second__img {
+  margin-top: 6rem;
+}
 /*# sourceMappingURL=main.css.map */
