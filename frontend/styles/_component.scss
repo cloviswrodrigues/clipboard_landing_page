@@ -47,12 +47,15 @@
     }
 }
 
-.benefits {
+.group-benefits {
     margin-top: 8rem;
     display: flex;
     flex-direction: column;
     gap: 6rem;
     width: 50%;
+}
+
+.benefit {
 
     &__title {
         font-size: 2.5rem;
@@ -88,5 +91,56 @@
 
     &__img {
         margin-top: 6rem;
+    }
+}
+
+.section-third {
+    margin-top: 3rem;
+    text-align: center;
+
+    &__title {
+        font-size: 3.5rem;
+        color: $color-dark-grayish-blue;
+    }
+
+    &__description {
+        margin-top: 1.6rem;
+        font-size: 1.8rem;
+        line-height: 2.5rem;
+    }  
+    
+    .wrapper {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 5rem;
+    }
+}
+
+.advantage {
+    max-width:35rem;
+
+    &__img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+
+        img {
+            width: 4rem;
+        }
+    }
+
+    &__title {
+        margin-top: 4rem;
+        font-size: 2.5rem;
+        color: $color-dark-grayish-blue;
+    }
+
+    &__description {
+        margin-top: 1rem;
+        font-size: 1.6rem;
+        text-align: center;
+        line-height: 3rem;
     }
 }

@@ -124,7 +124,7 @@ a {
   left: -4rem;
 }
 
-.benefits {
+.group-benefits {
   margin-top: 8rem;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -137,12 +137,12 @@ a {
   width: 50%;
 }
 
-.benefits__title {
+.benefit__title {
   font-size: 2.5rem;
   color: #4c545d;
 }
 
-.benefits__description {
+.benefit__description {
   margin-top: 1rem;
   max-width: 35rem;
   font-size: 1.6rem;
@@ -171,5 +171,67 @@ a {
 
 .section-second__img {
   margin-top: 6rem;
+}
+
+.section-third {
+  margin-top: 3rem;
+  text-align: center;
+}
+
+.section-third__title {
+  font-size: 3.5rem;
+  color: #4c545d;
+}
+
+.section-third__description {
+  margin-top: 1.6rem;
+  font-size: 1.8rem;
+  line-height: 2.5rem;
+}
+
+.section-third .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 5rem;
+}
+
+.advantage {
+  max-width: 35rem;
+}
+
+.advantage__img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+
+.advantage__img img {
+  width: 4rem;
+}
+
+.advantage__title {
+  margin-top: 4rem;
+  font-size: 2.5rem;
+  color: #4c545d;
+}
+
+.advantage__description {
+  margin-top: 1rem;
+  font-size: 1.6rem;
+  text-align: center;
+  line-height: 3rem;
 }
 /*# sourceMappingURL=main.css.map */
