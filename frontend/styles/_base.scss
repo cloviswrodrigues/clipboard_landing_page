@@ -4,6 +4,8 @@ $color-light-blue: hsl(233, 100%, 69%);
 $color-dark-grayish-blue: hsl(210, 10%, 33%);
 $color-grayish-blue: hsl(201, 11%, 66%);
 
+$color-light-gray: #f5f6f8;
+
 * {
     margin: 0;
     padding: 0;
@@ -30,4 +32,8 @@ img {
 a {
     all: unset;
     cursor: pointer;
+}
+
+li {
+    list-style: none;
 }

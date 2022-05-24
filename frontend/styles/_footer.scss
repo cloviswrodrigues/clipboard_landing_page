@@ -1,0 +1,43 @@
+.footer {
+    margin-top: 15rem;
+    background-color: $color-light-gray;
+    padding: 4rem 0;
+    position: relative;
+    font-size: 1.6rem;
+
+    .wrapper {
+        display: flex;
+    }
+
+    &__logo {
+        width: 5rem;
+    }
+
+    &__nav {
+        margin-left: 15rem;
+
+        .nav-menu {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            gap: 2rem;
+            height: 9rem;
+        }
+    }
+
+    &__social {
+
+    }
+
+    .attribution {
+        position: absolute;
+        right: .5rem;
+        bottom: .5rem;
+        font-size: 11px; 
+        text-align: center;
+
+        a {
+            color: hsl(228, 45%, 44%);
+        }
+    }
+}
