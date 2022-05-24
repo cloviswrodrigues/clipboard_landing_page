@@ -111,7 +111,7 @@
     
     .wrapper {
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
         align-items: center;
         margin-top: 5rem;
     }
@@ -142,5 +142,15 @@
         font-size: 1.6rem;
         text-align: center;
         line-height: 3rem;
+    }
+}
+
+.group-company {
+    margin-top: 15rem;
+    display: flex;
+    justify-content: space-between;
+
+    &__item {
+        width: 15rem;
     }
 }

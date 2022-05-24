@@ -16,7 +16,7 @@ img {
 }
 
 .container {
-  width: 90%;
+  width: 80%;
   margin: 0 auto;
   max-width: 144rem;
 }
@@ -193,8 +193,9 @@ a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -233,5 +234,19 @@ a {
   font-size: 1.6rem;
   text-align: center;
   line-height: 3rem;
+}
+
+.group-company {
+  margin-top: 15rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.group-company__item {
+  width: 15rem;
 }
 /*# sourceMappingURL=main.css.map */
