@@ -287,14 +287,13 @@ li {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .footer__logo {
   width: 5rem;
-}
-
-.footer__nav {
-  margin-left: 15rem;
 }
 
 .footer__nav .nav-menu {
@@ -308,7 +307,23 @@ li {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   gap: 2rem;
-  height: 9rem;
+  max-height: 9rem;
+  color: #4c545d;
+}
+
+.footer__nav .nav-menu__item {
+  margin-left: 8rem;
+}
+
+.footer__social {
+  position: absolute;
+  right: 10%;
+}
+
+.footer__social svg {
+  margin-left: 2rem;
+  width: 3rem;
+  fill: #4c545d;
 }
 
 .footer .attribution {

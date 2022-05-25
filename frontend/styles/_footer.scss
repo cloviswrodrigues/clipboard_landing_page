@@ -7,6 +7,7 @@
 
     .wrapper {
         display: flex;
+        align-items: center;
     }
 
     &__logo {
@@ -14,19 +15,31 @@
     }
 
     &__nav {
-        margin-left: 15rem;
 
         .nav-menu {
             display: flex;
             flex-direction: column;
             flex-wrap: wrap;
             gap: 2rem;
-            height: 9rem;
+            max-height: 9rem;
+            color: $color-dark-grayish-blue;
+
+            &__item {
+                margin-left: 8rem;
+            }
         }
     }
 
     &__social {
+        position: absolute;
+        right: 10%;
 
+
+        svg {
+            margin-left: 2rem;
+            width: 3rem;
+            fill: $color-dark-grayish-blue;
+        }
     }
 
     .attribution {
