@@ -26,6 +26,10 @@
 
             &__item {
                 margin-left: 8rem;
+
+                &:hover {
+                    color: $color-strong-cyan;
+                }
             }
         }
     }
@@ -37,8 +41,12 @@
 
         svg {
             margin-left: 2rem;
-            width: 3rem;
+            width: 2.5rem;
             fill: $color-dark-grayish-blue;
+
+            &:hover {
+                fill: $color-strong-cyan;
+            }
         }
     }
 

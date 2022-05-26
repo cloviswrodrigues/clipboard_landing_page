@@ -326,6 +326,10 @@ li {
   margin-left: 8rem;
 }
 
+.footer__nav .nav-menu__item:hover {
+  color: #26baa4;
+}
+
 .footer__social {
   position: absolute;
   right: 10%;
@@ -333,8 +337,12 @@ li {
 
 .footer__social svg {
   margin-left: 2rem;
-  width: 3rem;
+  width: 2.5rem;
   fill: #4c545d;
+}
+
+.footer__social svg:hover {
+  fill: #26baa4;
 }
 
 .footer .attribution {
