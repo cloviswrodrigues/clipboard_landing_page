@@ -74,12 +74,23 @@ li {
   color: white;
 }
 
+.btn:hover {
+  -webkit-filter: brightness(110%);
+          filter: brightness(110%);
+}
+
 .btn-green {
   background-color: #26baa4;
+  border-bottom: 0.3rem solid #22a591;
+  -webkit-box-shadow: 1px 8px 20px -5px rgba(38, 186, 164, 0.5);
+          box-shadow: 1px 8px 20px -5px rgba(38, 186, 164, 0.5);
 }
 
 .btn-blue {
   background-color: #6173ff;
+  border-bottom: 0.3rem solid #475dff;
+  -webkit-box-shadow: 1px 8px 20px -5px rgba(0, 0, 0, 0.5);
+          box-shadow: 1px 8px 20px -5px rgba(0, 0, 0, 0.5);
 }
 
 .group-btn {

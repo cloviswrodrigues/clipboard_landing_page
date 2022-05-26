@@ -4,14 +4,23 @@
     font-size: 1.6rem;
     font-weight: 600;
     color: white;
+    
+
+    &:hover {
+        filter: brightness(110%);
+    }
 }
 
 .btn-green {
-    background-color: $color-strong-cyan;   
+    background-color: $color-strong-cyan;  
+    border-bottom: .3rem solid darken($color-strong-cyan, 5%);
+    box-shadow: 1px 8px 20px -5px rgba($color-strong-cyan,.5);    
 }
 
 .btn-blue {
     background-color: $color-light-blue;   
+    border-bottom: .3rem solid darken($color-light-blue, 5%); 
+    box-shadow: 1px 8px 20px -5px rgba(0,0,0,.5);
 }
 
 .group-btn {
