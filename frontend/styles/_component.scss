@@ -9,6 +9,10 @@
     &:hover {
         filter: brightness(110%);
     }
+
+    @media screen and (max-width: $break-mobile) {
+        font-size: 1.4rem;
+    }
 }
 
 .btn-green {
@@ -28,6 +32,10 @@
     display: flex;
     justify-content: center;
     gap: 1.5rem;
+
+    @media screen and (max-width: $break-mobile) {
+        flex-direction: column; 
+    }
 }
 
 .section-main {

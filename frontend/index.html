@@ -10,21 +10,16 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
   
-
   <link rel="stylesheet" href="./styles/main.css"/>
 
   <title>Frontend Mentor | Clipboard landing page</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    
-  </style>
 </head>
 <body>
   <header class="header">
     <picture class="header-bg">
-      <source>
-      <img src="/frontend/assets/bg-header-desktop.png" alt="">
+      <source media="(max-width: 900px)" srcset="./assets/bg-header-mobile.png">
+      <img src="./assets/bg-header-desktop.png" alt="">
     </picture>
     <img class="header__logo" src="/frontend/assets/logo.svg" alt="">
     <div class="container">

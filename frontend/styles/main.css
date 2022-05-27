@@ -66,6 +66,16 @@ li {
   font-size: 2rem;
 }
 
+@media screen and (max-width: 900px) {
+  .header__title {
+    font-size: 2.8rem;
+  }
+  .header__description {
+    font-size: 1.4rem;
+    line-height: 2.2rem;
+  }
+}
+
 .btn {
   padding: 1.5rem 3.5rem;
   border-radius: 3rem;
@@ -77,6 +87,12 @@ li {
 .btn:hover {
   -webkit-filter: brightness(110%);
           filter: brightness(110%);
+}
+
+@media screen and (max-width: 900px) {
+  .btn {
+    font-size: 1.4rem;
+  }
 }
 
 .btn-green {
@@ -102,6 +118,15 @@ li {
       -ms-flex-pack: center;
           justify-content: center;
   gap: 1.5rem;
+}
+
+@media screen and (max-width: 900px) {
+  .group-btn {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
 }
 
 .section-main {
