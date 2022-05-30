@@ -69,6 +69,27 @@
         position: relative;
         left: -4rem;
     }
+
+    @media screen and (max-width: $break-mobile) {
+
+        &__title {
+            font-size: 2.8rem;
+        }
+    
+        &__description {
+            font-size: 1.4rem;
+        }
+
+        .wrapper {
+            flex-direction: column;
+        }
+
+        &__img {
+            width: 80%;        
+            position: static;
+            margin: 0 auto;
+        }    
+    }
 }
 
 .group-benefits {
@@ -77,6 +98,13 @@
     flex-direction: column;
     gap: 6rem;
     width: 50%;
+
+    @media screen and (max-width: $break-mobile) {
+        width: 80%;
+        margin: 0 auto;
+        text-align: center;
+        gap: 4rem;
+    }
 }
 
 .benefit {
@@ -90,6 +118,16 @@
         margin-top: 1rem;
         max-width: 35rem;
         font-size: 1.6rem;
+    }
+
+    @media screen and (max-width: $break-mobile) {
+        &__title {
+            font-size: 2rem;
+        }
+    
+        &__description {
+            font-size: 1.4rem;
+        }
     }
 }
 
