@@ -61,4 +61,27 @@
             color: hsl(228, 45%, 44%);
         }
     }
+
+    @media screen and (max-width: $break-mobile) {
+        font-size: 1.4rem;
+
+        .wrapper {
+            flex-direction: column;
+            gap: 3rem;
+        }
+
+        .nav-menu {
+            max-height: 20rem;
+            align-items: center;
+
+            &__item {
+                margin-left: 0;
+            }
+        }
+
+        
+        &__social {
+            position: static;
+        }
+    }
 }
