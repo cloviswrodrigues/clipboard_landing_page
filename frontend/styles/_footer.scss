@@ -37,10 +37,12 @@
     &__social {
         position: absolute;
         right: 10%;
+        display: flex;
+        align-items: center;
+        gap: 2.5rem;
 
 
         svg {
-            margin-left: 2rem;
             width: 2.5rem;
             fill: $color-dark-grayish-blue;
 
@@ -82,6 +84,11 @@
         
         &__social {
             position: static;
+            gap: 3rem;
+
+            svg {
+                width: 2rem;
+            }
         }
     }
 }

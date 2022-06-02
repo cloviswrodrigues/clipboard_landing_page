@@ -435,10 +435,16 @@ li {
 .footer__social {
   position: absolute;
   right: 10%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 2.5rem;
 }
 
 .footer__social svg {
-  margin-left: 2rem;
   width: 2.5rem;
   fill: #4c545d;
 }
@@ -481,6 +487,10 @@ li {
   }
   .footer__social {
     position: static;
+    gap: 3rem;
+  }
+  .footer__social svg {
+    width: 2rem;
   }
 }
 /*# sourceMappingURL=main.css.map */
