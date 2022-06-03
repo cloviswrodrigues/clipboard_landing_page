@@ -98,22 +98,16 @@ li {
 }
 
 .header__title {
-  font-size: 4.5rem;
   color: #4c545d;
 }
 
 .header__description {
   margin-top: 2rem;
-  font-size: 2rem;
 }
 
 @media screen and (max-width: 900px) {
-  .header__title {
-    font-size: 2.8rem;
-  }
-  .header__description {
-    font-size: 1.4rem;
-    line-height: 2.2rem;
+  .header-bg img {
+    height: 27rem;
   }
 }
 

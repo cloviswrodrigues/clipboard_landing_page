@@ -24,23 +24,20 @@
     }
 
     &__title {
-        font-size: 4.5rem;
         color: $color-dark-grayish-blue;
     }
 
     &__description {
         margin-top: 2rem;
-        font-size: 2rem;
     }    
 
     @media screen and (max-width: $break-mobile) {
-        &__title {
-            font-size: 2.8rem;
-        }
+
+        &-bg {
     
-        &__description {
-            font-size: 1.4rem;
-            line-height: 2.2rem;
-        }   
+            img {
+                height: 27rem;
+            }
+        }
     }
 }
